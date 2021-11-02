@@ -1,0 +1,23 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: inherit;
+}
+
+:root{
+    /* Acá tienen que ir todas las definiciones de mis variables */
+    scroll-behavior: smooth;
+}
+
+.green{
+    color: green;
+}
+
+.red{
+    color: red;
+}
